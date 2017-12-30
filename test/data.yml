@@ -1,0 +1,13 @@
+Classroom(c1):
+  name: classroom1
+
+Group(g1):
+  name: group1
+  classroom: c1
+
+Student(s1):
+  name: student1
+  classrooms:
+  - c1
+  groups:
+  - g1
